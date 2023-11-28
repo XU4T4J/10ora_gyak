@@ -31,13 +31,13 @@ var faktorialis = function (a) {
     }
 }
 
-//új DOM elem létrehozása:
-//var ujElem = document.createElement('div');
-//ujElem.classList.add('újosztály')
-//ujElem.id = 'újID';
-//ujElem.innerText = '0';
-//ujElem.innerHTML = '<div>Hello!</div>';
+/*új DOM elem létrehozása:*/
+var ujElem = document.createElement('div');
+ujElem.classList.add('újosztály')
+ujElem.id = 'újID';
+ujElem.innerText = '0';
+ujElem.innerHTML = '<div>Hello!</div>';
 
-//var szuloElem = document.getElementById('szulo'); //szülő elem meghatározása
-//szuloElem.appendChild(ujElem);
+var szuloElem = document.getElementById('szulo'); //szülő elem meghatározása
+szuloElem.appendChild(ujElem);
 
